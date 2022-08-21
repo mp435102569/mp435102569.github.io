@@ -1,0 +1,232 @@
+.w {
+    width: 1224px;
+    height: 138px;
+    margin: 0 auto;
+}
+
+.orangecolor {
+    color: #FF6A00
+}
+
+/* 头部上半部分 */
+.head {
+    height: 40px;
+    background-color: #333333;
+}
+
+header {
+    position: relative;
+}
+
+.head_hd ul li {
+    float: left;
+    font-size: 12px;
+}
+
+.head_hd ul li a {
+    line-height: 40px;
+    padding: 0 7px;
+    color: #b0b0b0;
+}
+
+/* .head_hd ul li a:first-child {
+    padding-left: 0;
+} */
+
+.head_hd ul li a:hover {
+    color: #fff
+}
+
+.head_hd .left li:nth-child(-n+11)::after {
+    content: '|';
+    width: 1px;
+    color: #424242
+}
+
+.head_hd .right {
+    float: right;
+}
+
+.head_hd .right li:nth-child(-n+2)::after {
+    content: '|';
+    width: 1px;
+    color: #424242
+}
+
+.head_hd .right .shopcart {
+    border-bottom: 0;
+    margin-left: 18px;
+}
+
+.head_hd .right .shopcart a {
+    display: inline-block;
+    width: 120px;
+    background-color: #424242;
+    text-align: center;
+
+}
+
+.head_hd .right .shopcart a::before {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.head_hd .right .shopcart a:hover {
+    background-color: #fff;
+    color: #FF6A00;
+    border-bottom: 0;
+    z-index: 5;
+}
+
+/* 头部下半部分 */
+.head_bd {
+    position: relative;
+    height: 100px;
+    overflow-y: hidden;
+}
+
+.head_bd h1 {
+    float: left;
+    width: 52px;
+    height: 52px;
+    padding: 20px 0;
+}
+
+.head_bd h1 a img {
+    width: 52px;
+    height: 52px;
+}
+
+.head_bd ul {
+    float: left;
+}
+
+.head_bd .nav {
+    margin-left: 180px;
+}
+
+.head_bd ul li {
+    float: left;
+    line-height: 100px;
+    font-size: 16px;
+    color: #333;
+}
+
+.head_bd ul li a {
+    margin-right: 20px;
+}
+
+.head_bd button {
+    float: right;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    margin-top: 24px;
+    margin-left: -1px;
+    height: 50px;
+    width: 50px;
+}
+
+.head_bd .search .searchBtn:hover {
+    background-color: #FF6A00;
+    border-color: #FF6A00;
+    color: #fff;
+}
+
+.head_bd button::after {
+    content: '\e977';
+    font-family: 'iconfont';
+    font-size: 25px;
+}
+
+.head_bd input {
+    float: right;
+    border: 1px solid #E0E0E0;
+    margin-top: 24px;
+    padding-left: 10px;
+    height: 50px;
+    width: 245px;
+}
+
+.head_bd .search:hover input,
+.head_bd .search:hover button {
+    border-color: #888;
+    transition: 0.5s;
+}
+
+.head_bd .message {
+    /* display: none; */
+    position: absolute;
+    top: -110px;
+    right: 0;
+    width: 320px;
+    height: 100px;
+
+    border-top: 0;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.container {
+    position: absolute;
+    display: none;
+    margin-top: -40px;
+    top: 178px;
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+}
+
+/* 下拉框部分 */
+.dropdown {
+    position: absolute;
+    float: left;
+    top: -230px;
+    left: 0;
+    height: 230px;
+    width: 100%;
+    /* z-index: 10; */
+}
+
+.dropdown .navlist ul li {
+    display: none;
+    height: 230px;
+}
+
+.dropdown .navlist ul li h5 {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.dropdown .navlist ul li h5::after {
+    content: '|';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    transform: scale(0.5, 8);
+    border: 1px;
+    /* height: 30px; */
+    color: #e0e0e0;
+}
+
+.dropdown .navlist ul li h5:last-child::after {
+    content: '';
+}
+
+.dropdown .navlist ul li h5 img {
+    margin-top: 15px;
+}
+
+.dropdown .navlist ul li h5 p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #333;
+}

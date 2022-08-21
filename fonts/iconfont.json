@@ -1,0 +1,289 @@
+{
+  "id": "3371062",
+  "name": "仿小米官网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5460560",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "ec2e",
+      "unicode_decimal": 60462
+    },
+    {
+      "icon_id": "145701",
+      "name": "对话信息_填充",
+      "font_class": "duihuaxinxitianchong",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "683417",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "1079725",
+      "name": "我的－售后",
+      "font_class": "wodeshouhou",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "1440640",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "1546572",
+      "name": "回顶部",
+      "font_class": "huidingbu",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "2076288",
+      "name": " 购物车",
+      "font_class": "gouwuche",
+      "unicode": "e899",
+      "unicode_decimal": 59545
+    },
+    {
+      "icon_id": "7594157",
+      "name": "24gf-playCircle",
+      "font_class": "24gf-playCircle",
+      "unicode": "ea82",
+      "unicode_decimal": 60034
+    },
+    {
+      "icon_id": "10436",
+      "name": "F",
+      "font_class": "F",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5649086",
+      "name": "字母先生",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7749526",
+      "name": "16gl-F",
+      "font_class": "16gl-F",
+      "unicode": "eb86",
+      "unicode_decimal": 60294
+    },
+    {
+      "icon_id": "15464816",
+      "name": "F_round_solid_字母f_by_climei",
+      "font_class": "F_round_solid",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "2668369",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "15323310",
+      "name": "F_square_字母f",
+      "font_class": "F_square",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "112286",
+      "name": "人民币",
+      "font_class": "rmb",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "781683",
+      "name": "人民币2-01",
+      "font_class": "renminbi201",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "11239041",
+      "name": "企业",
+      "font_class": "qiye",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "15695373",
+      "name": "内存卡",
+      "font_class": "neicunka",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "90513",
+      "name": "15天无理由退货",
+      "font_class": "15tianwuliyoutuihuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "838048",
+      "name": "7天无理由退货",
+      "font_class": "7tianwuliyoutuihuo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "2075259",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "2486582",
+      "name": "短信",
+      "font_class": "duanxin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "10392609",
+      "name": "短信",
+      "font_class": "duanxin1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "15838428",
+      "name": "arrow-right-circle",
+      "font_class": "arrow-right-circle",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "15838437",
+      "name": "arrow-left-circle",
+      "font_class": "arrow-left-circle",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "15838460",
+      "name": "direction-right",
+      "font_class": "direction-right",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "15838463",
+      "name": "direction-left",
+      "font_class": "direction-left",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "29391780",
+      "name": "comment",
+      "font_class": "comment",
+      "unicode": "e956",
+      "unicode_decimal": 59734
+    },
+    {
+      "icon_id": "29391821",
+      "name": "environment",
+      "font_class": "environment",
+      "unicode": "e95c",
+      "unicode_decimal": 59740
+    },
+    {
+      "icon_id": "29391883",
+      "name": "gift",
+      "font_class": "gift",
+      "unicode": "e964",
+      "unicode_decimal": 59748
+    },
+    {
+      "icon_id": "29391920",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e968",
+      "unicode_decimal": 59752
+    },
+    {
+      "icon_id": "29391931",
+      "name": "login",
+      "font_class": "login",
+      "unicode": "e96a",
+      "unicode_decimal": 59754
+    },
+    {
+      "icon_id": "29391963",
+      "name": "paper-clip",
+      "font_class": "paper-clip",
+      "unicode": "e96d",
+      "unicode_decimal": 59757
+    },
+    {
+      "icon_id": "29391970",
+      "name": "play-circle",
+      "font_class": "play-circle",
+      "unicode": "e96f",
+      "unicode_decimal": 59759
+    },
+    {
+      "icon_id": "29392001",
+      "name": "right-circle",
+      "font_class": "right-circle",
+      "unicode": "e975",
+      "unicode_decimal": 59765
+    },
+    {
+      "icon_id": "29392006",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e976",
+      "unicode_decimal": 59766
+    },
+    {
+      "icon_id": "29392022",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e977",
+      "unicode_decimal": 59767
+    },
+    {
+      "icon_id": "29392025",
+      "name": "shopping-cart",
+      "font_class": "shopping-cart",
+      "unicode": "e979",
+      "unicode_decimal": 59769
+    },
+    {
+      "icon_id": "29392068",
+      "name": "tool",
+      "font_class": "tool",
+      "unicode": "e97e",
+      "unicode_decimal": 59774
+    },
+    {
+      "icon_id": "29392101",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e983",
+      "unicode_decimal": 59779
+    }
+  ]
+}

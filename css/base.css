@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 首先清除所有标签内外边距 */
+    box-sizing: border-box;
+}
+
+em,
+i {
+    font-style: normal
+        /* 设置斜体标签字体变正常 */
+}
+
+li {
+    list-style: none
+        /* 去除小li前面的圆点 */
+}
+
+img {
+    /* 照顾低版本浏览器，如果图片有链接会有边框的问题 */
+    border: 0;
+    vertical-align: middle
+        /* 解决图片底部有空隙的问题，将图片和文字的垂直对齐方式改成中线对齐 */
+}
+
+span,
+button,
+li,
+i,
+a {
+    cursor: pointer
+        /* 经过按钮时更改鼠标样式为小手 */
+}
+
+a {
+    color: #666;
+    text-decoration: none
+        /* 给超链接小a默认颜色并去掉下划线 */
+}
+
+a:hover {
+    color: #FF6A00
+        /* 鼠标经过链接的颜色改成小米橙色 */
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 给表单，按钮字体样式 */
+    border: 0;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    /* 抗锯齿性 让文字显示更加清晰 */
+    background-color: #fff;
+    /* 网页背景色 */
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 网页默认字体,行高为字体1.5倍,字体样式 \5B8B\4F53 unicode编码 即宋体 */
+    color: #666
+        /* 字体默认颜色 */
+}
+
+.hide,
+.none {
+    display: none
+}
+
+/* 最后是清除浮动的代码 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
