@@ -48,7 +48,24 @@ window.onload = function () {
     dropdown.style.border = "none";
     dropdown.style.backgroundColor = "none";
   });
-
+  //鼠标进入ul导航栏出现下拉框
+  container.addEventListener("mouseenter", function () {
+    container.style.display = "block";
+    container.style.zIndex = "2";
+    animate(dropdown, 0, 10);
+    dropdown.style.boxShadow = "0 3px 8px 2px rgba(142, 144, 142, 0.3)";
+    dropdown.style.border = " 2px solid #e0e0e0";
+    dropdown.style.backgroundColor = "#fff";
+  });
+  //鼠标离开
+  container.addEventListener("mouseleave", function () {
+    animate(dropdown, -230, 10, function () {
+      container.style.zIndex = "-1";
+    });
+    dropdown.style.boxShadow = "none";
+    dropdown.style.border = "none";
+    dropdown.style.backgroundColor = "none";
+  });
   for (let k = 0; k < lis2.length; k++) {
     lis2[k].setAttribute("index", k);
   }
@@ -156,7 +173,7 @@ window.onload = function () {
   //给第一个小圆点添加一个类名
   swiperpoint.children[0].className = "current";
 
-//   实现点击右边的按钮切换图片的 功能
+  //   实现点击右边的按钮切换图片的 功能
 
   rbutton.addEventListener("click", function () {
     if (flag) {
